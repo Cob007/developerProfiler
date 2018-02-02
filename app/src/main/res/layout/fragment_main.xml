@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="micheal.cob.developerprofile.MainActivityFragment"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="WELCOME"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:text="Developer profile  \npdf and snapshot generator"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_keyboard"
+        android:padding="16dp"
+        android:background="@drawable/start"
+        android:text="Start"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
